@@ -1,0 +1,31 @@
+/* Media Query*/
+
+@media(max-width: 991px){
+    .showcase, .showcase header{
+         padding: 40px;
+    }
+
+    .text h2{
+        font-size: 3em;
+    }
+}
+
+/* Calculate */
+@media(max-width: 768px){
+    .banner-section{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-section .left{
+        width: 100% !important;
+        padding: 10px !important;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .banner-section .right{
+        width: 100% !important;
+    }
+}
